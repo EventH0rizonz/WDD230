@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        text-align: center;
+        margin: 0%;
+    }
+    header h1 {
+        font-size: 90px;
+    }
+    #links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: x-large;
+        
+    }
+    #links a {
+        padding: 10px;
+    }
+}
