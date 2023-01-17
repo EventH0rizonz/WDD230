@@ -8,7 +8,7 @@ header {
     font-family: "Carter One";
 }
 header h1 {
-    grid-template-columns: 2/3 0;
+    grid-template-columns: 2/3fr;
     font-size: 50px;
     margin: 10%;
     padding: 100px;
@@ -24,7 +24,7 @@ h2 {
 #links {
     font-size: large;
     display: grid;
-    grid-template-rows: 14 0;
+    grid-template-rows: 14fr;
     padding: 1%;
     font-family: 'Englebert';
 }
