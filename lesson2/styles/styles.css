@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Englebert&display=swap');
+body {
+    font-family: "Carter One";
+}
+header {
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+}
+#grids {
+    border-radius: 25px;
+    padding: 1px;
+}
+header h2 {
+    padding-bottom: 1%;
+}
+#visual {
+    margin: 1%;
+    background-color: lightgrey;
+    border-radius: 25px;
+
+}
+#visual img {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+#visual h1 {
+    background-color: darkolivegreen;
+    margin-top: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+}
+#rule-of-3 {
+    background-color: lightgrey;
+    margin: 1%;
+    border-radius: 25px;
+}
+#rule-of-3 h1 {
+    background-color: darkolivegreen;
+    margin-top: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+}
+#rule-of-3 img {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+#contrast {
+    background-color: lightgrey;
+    margin: 1%;
+    border-radius: 25px;
+
+}
+#contrast h1 {
+    background-color: darkolivegreen;
+    margin-top: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+}
+#contrast img {
+    padding-top: 5%;
+    padding-left: 10%;
+
+}
+@media only screen and (min-width: 480px) {
+    #grids {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (min-width: 960px) {
+    #grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #contrast {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    #grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    #contrast {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+}
