@@ -9,9 +9,10 @@ header {
 }
 body {
     max-width: 1440px;
+    margin: auto;
 }
 header h1 {
-    grid-template-columns: 2/3;
+    grid-template-columns: 1fr 1fr;
     font-size: 50px;
     margin: 10%;
     padding: 100px;
