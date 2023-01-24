@@ -23,6 +23,8 @@ header h2 {
 #visual img {
     padding-top: 5%;
     padding-left: 10%;
+    width: 80%;
+    height: auto;
 }
 #visual h1 {
     background-color: darkolivegreen;
@@ -46,6 +48,8 @@ header h2 {
 #rule-of-3 img {
     padding-top: 5%;
     padding-left: 10%;
+    width: 80%;
+    height: auto;
 }
 #contrast {
     background-color: lightgrey;
@@ -63,6 +67,8 @@ header h2 {
 #contrast img {
     padding-top: 5%;
     padding-left: 10%;
+    width: 80%;
+    height: auto;
 
 }
 @media only screen and (min-width: 480px) {

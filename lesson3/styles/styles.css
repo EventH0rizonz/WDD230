@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Yatra+One&display=swap");
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #001400;
+    padding: 35px;
+    font-size: x-large;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #54DEFD;
+    color: #293241;
+    font-family: 'Yatra One';
+
+}
+body {
+    background-color: #DAC6B5;
+    color: #293241;
+}
+#typography h1 {
+    font-family: 'Yatra One';
+}
+#typography p {
+    font-family: 'Sawarabi Mincho';
+}
+#audiance {
+    font-family: 'Sawarabi Mincho';
+}
+#senarios {
+    font-family: 'Sawarabi Mincho';
+}
+#persona {
+    font-family: 'Sawarabi Mincho';
+}
+#purpose {
+    font-family: 'Sawarabi Mincho';
+}
