@@ -3,39 +3,52 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #001400;
-    padding: 35px;
-    font-size: x-large;
+    font-size: large;
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #54DEFD;
+    align-items: center;
     color: #293241;
     font-family: 'Yatra One';
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-direction: column;
 
 }
 body {
     background-color: #DAC6B5;
     color: #293241;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-#typography h1 {
-    font-family: 'Yatra One';
+#spotlight2 {
+    border-color: #3D5A80;
+    border-style: solid;
 }
-#typography p {
-    font-family: 'Sawarabi Mincho';
+#hero {
+    border-color: #3D5A80;
+    border-style: solid;
 }
-#audiance {
-    font-family: 'Sawarabi Mincho';
+#spotlight1 {
+    border-color: #3D5A80;
+    border-style: solid;
 }
-#senarios {
-    font-family: 'Sawarabi Mincho';
+#news {
+    border-color: #3D5A80;
+    border-style: solid;
 }
-#persona {
-    font-family: 'Sawarabi Mincho';
+#companies {
+    border-color: #3D5A80;
+    border-style: solid;
 }
-#purpose {
-    font-family: 'Sawarabi Mincho';
+footer {
+    background-color: #54DEFD;
+    text-align: center;
 }
-@media only screen and (min-width: 480px) {
-    
-}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
