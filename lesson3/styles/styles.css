@@ -8,7 +8,7 @@ nav a {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #54DEFD;
     color: #293241;
     font-family: 'Yatra One';
@@ -35,4 +35,10 @@ body {
 }
 #purpose {
     font-family: 'Sawarabi Mincho';
+}
+@media only screen and (max-width: 30em) {
+    nav {
+        display: flex;
+        flex-direction: column;
+	}
 }
