@@ -76,4 +76,15 @@ footer {
     border-radius: 15px;
     padding: 5px;
 }
+#banner {
+    width: 90%;
+    height: 25px;
+    top: 160px;
+    position: absolute;
+    background-color: #3D5A80;
+    text-align: center;
+    line-height: 25px;
+    color: #ffffff;
+
+  }
 
